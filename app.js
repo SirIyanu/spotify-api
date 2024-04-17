@@ -1,5 +1,6 @@
 const express = require("express");
 const { getAllSongs } = require("./src/controller/songs");
+var cors = require("cors");
 
 const app = express();
 const port = 3001;
