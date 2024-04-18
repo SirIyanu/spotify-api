@@ -4,6 +4,7 @@ var cors = require("cors");
 
 const app = express();
 const port = 3001;
+app.use(cors());
 
 app.get("/songs", getAllSongs);
 
